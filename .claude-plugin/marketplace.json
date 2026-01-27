@@ -8,7 +8,7 @@
       "name": "4grit-dev",
       "source": "./",
       "description": "4Grit 개발 워크플로우 - Jira 브랜치 생성, 커밋, Vue 성능 최적화",
-      "version": "1.0.0"
+      "version": "1.1.0"
     }
   ]
 }
