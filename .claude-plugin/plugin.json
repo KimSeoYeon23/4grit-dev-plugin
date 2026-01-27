@@ -1,0 +1,9 @@
+{
+  "name": "4grit-dev",
+  "version": "1.0.0",
+  "description": "4Grit 개발 워크플로우 자동화 - Jira 브랜치 생성, 커밋 메시지, Vue 성능 최적화",
+  "author": {
+    "name": "kimseoyeon"
+  },
+  "keywords": ["jira", "git", "vue", "workflow"]
+}
