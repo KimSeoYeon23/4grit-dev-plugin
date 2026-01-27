@@ -2,6 +2,7 @@
 name: vue-performance
 description: Vue 성능 최적화. 번들, lazy loading, 코드 스플리팅, 로딩 속도, 최적화, 무거운 컴포넌트, 청크, 분석 요청 시 사용
 disable-model-invocation: false
+user-invocable: true
 ---
 
 # Vue 성능 최적화 가이드
