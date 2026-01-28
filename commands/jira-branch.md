@@ -14,6 +14,9 @@ Jira 이슈 번호: $ARGUMENTS
    - 예: `BEUS-11237_add_user_login_validation`
 
 3. **Git 브랜치 생성 및 이동**:
+   - 현재 브랜치가 `staging-master`가 아닐 경우 `staging-master`로 이동
+   - `staging-master`로 이동 후 `git pull origin staging-master`로 브랜치 최신화
+   - 최신화 후 아래 shell 명령어로 브랜치 생성 및 이동
    ```bash
    git checkout -b {브랜치명}
    ```
