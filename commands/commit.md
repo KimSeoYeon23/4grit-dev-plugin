@@ -28,6 +28,7 @@
 - 대괄호로 이슈번호 감싸기: `[ISSUE-KEY]`
 - 동사 원형으로 시작: Add, Fix, Update, Remove, Refactor, Improve
 - 불필요한 단어 제거
+- Co-Authored-By 라인 포함하지 말 것
 - 예시:
   - `[BEUS-123] Add user authentication`
   - `[GEO-456] Fix button color on mobile`

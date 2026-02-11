@@ -23,6 +23,12 @@ Jira 이슈 번호: $ARGUMENTS
    git checkout -b {브랜치명}
    ```
 
+4. **Jira 이슈 상태 변경 (사용자 확인)**:
+   - 사용자에게 "이슈 상태를 '작업중'으로 변경할까요?" 질문
+   - 선택지: `1. 예` / `2. 아니오`
+   - **아니오 선택 시**: 상태 변경 없이 종료
+   - **예 선택 시**: `jira_get_transitions`로 전환 가능한 상태 목록 조회 → "작업중" 또는 "In Progress" transition ID를 찾아 `jira_transition_issue`로 상태 변경
+
 ## 브랜치명 규칙
 - kebab-case (하이픈 연결)
 - 최대 50자 이내 권장
